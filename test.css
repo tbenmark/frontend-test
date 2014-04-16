@@ -1,0 +1,60 @@
+/* Generic styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+/* End of generic styles */
+
+header {
+  height: 60px;
+}
+
+nav, .container {
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 0px 30px;
+}
+
+nav a:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.main {
+  display: block;
+  width: 960px;
+  /* Set temporary height */
+  height: 500px;
+  margin: auto;
+}
+
+.content {
+  display: inline-block;
+  width: 660px;
+  float: left;
+  /* Set temporary height and background-color */
+  height: 500px;
+  background-color: gray;
+}
+
+.sidebar {
+  display: inline-block;
+  width: 300px;
+  float: right;
+  /* Set temporary height and background-color */
+  height: 500px;
+  background-color: red;
+}
+
+footer {
+  text-align: center;
+}
